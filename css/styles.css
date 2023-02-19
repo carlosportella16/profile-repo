@@ -129,3 +129,39 @@ footer {
   height: 32px;
   margin: 10px;
 }
+
+/*RESPONSIVE LAYOUT*/
+
+@media(min-width: 576px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media(min-width: 768px) {
+  html {
+    font-size: 24px;
+  }
+
+  .portfolio-item {
+    width: 280px;
+  }
+
+  .nav-container {
+    display: flex;
+  }
+
+  .nav-main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-brand {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .menu-items li {
+    font-size: 18px;
+  }
+}
